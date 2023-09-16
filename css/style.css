@@ -286,8 +286,7 @@ body {
 
 .social-media-icon-info {
     max-height: 112px;
-    width: 64px;
-    height: 64px;
+
 
 
 }
@@ -369,6 +368,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 24px;
 
 }
 
@@ -468,6 +468,7 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-portfolio-list:nth-child(3n + 1) {
@@ -478,7 +479,7 @@ body {
 .section-portfolio-list {
     width: calc((100% - 48px) / 3);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .section-portfolio-list:hover {
@@ -508,6 +509,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     top: 0;
+    left: 0;
     position: absolute;
     padding: 40px 32px;
     background-color: #4d5ae5;
@@ -568,7 +570,6 @@ body {
 
 }
 
-.social-container-footer {}
 
 .text-social-container {
     color: var(--WHITE, #FFF);
@@ -599,6 +600,7 @@ body {
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-link-footer:hover,
